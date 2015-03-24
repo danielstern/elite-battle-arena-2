@@ -19,6 +19,15 @@ angular.module('EB2',['ui.router','cyo'])
             }
         })
 
+         .state({
+            name: "dungeon",
+            url: "/dungeon",
+            templateUrl: 'scripts/templates/dungeon.html',
+            controller:function(){
+            	
+            }
+        })
+
 
     $urlRouterProvider.when('', '/');
     $urlRouterProvider.otherwise('/');
